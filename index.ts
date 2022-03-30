@@ -7,6 +7,7 @@ const connect =require("./src/configs/db")
 const PORT=process.env.PORT || 8080;
 
 const app=express();// Express app initialization
+app.use(express.json());
 const userController =require("./src/controllers/user.controller");
 app.use("/users",userController)
 
