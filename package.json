@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Sourav12061999/linkedin-backend/issues"
   },
-  "homepage": "https://github.com/Sourav12061999/linkedin-backend#readme"
+  "homepage": "https://github.com/Sourav12061999/linkedin-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "multer": "^1.4.4"
+  }
 }
