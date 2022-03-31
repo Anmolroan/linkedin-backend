@@ -7,4 +7,4 @@ const UserSchema =new Schema({
     versionKey:false,
     timestamps:true
 });
-module.exports = model("user",UserSchema);
+module.exports = model("users",UserSchema);
